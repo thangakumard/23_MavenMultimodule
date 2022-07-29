@@ -1,3 +1,3 @@
 public interface UsersService {
-    void getUsers();
+    UsersDao getUsers();
 }

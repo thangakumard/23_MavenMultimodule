@@ -3,8 +3,8 @@ public class Users implements UsersService {
     public Users(UsersRepository usersRepository){
         this.usersRepository = usersRepository;
     }
-    public void getUsers(){
+    public UsersDao getUsers(){
         System.out.println("User service is accessing dataaccess layer!");
-        usersRepository.getUsers();
+        return usersRepository.getUsers();
     }
 }

@@ -12,6 +12,7 @@
         <module>controller</module>
         <module>service</module>
         <module>dataaccess</module>
+        <module>pojo</module>
     </modules>
 
     <properties>
