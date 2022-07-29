@@ -4,7 +4,7 @@ public class UserController {
     public UserController(UsersService usersService){
         this.usersService = usersService;
     }
-    public void getUsers(){
-        usersService.getUsers();
+    public UsersDao getUsers(){
+        return usersService.getUsers();
     }
 }
