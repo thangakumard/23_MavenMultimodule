@@ -1,3 +1,6 @@
+package org.example.dataaccess;
+import org.example.pojo.UsersDao;
+
 public class Users implements UsersRepository{
     public UsersDao getUsers(){
         System.out.println("Getting the user information from database");

@@ -1,3 +1,8 @@
+package org.example.service;
+
+import org.example.dataaccess.UsersRepository;
+import org.example.pojo.UsersDao;
+
 public class Users implements UsersService {
     UsersRepository usersRepository;
     public Users(UsersRepository usersRepository){

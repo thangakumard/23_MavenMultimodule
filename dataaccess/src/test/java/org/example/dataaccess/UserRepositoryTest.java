@@ -1,4 +1,7 @@
+package org.example.dataaccess;
+
 import org.assertj.core.api.Assertions;
+import org.example.pojo.UsersDao;
 import org.junit.Test;
 
 public class UserRepositoryTest {
